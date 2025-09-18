@@ -130,7 +130,6 @@ export const SuperVideoComponent = ({
   }
 
   const closedCaptionsList = closedCaptions.map((cc, index) => {
-    console.log('cc', cc);
     return (
       <span key={index}>{cc.user.name}: {cc.text}</span>
     );
